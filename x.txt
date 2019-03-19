@@ -1,9 +1,0 @@
-knownregs = { new RegSet(@"\SYSTEM\CurrentControlSet\Control\Session Manager\Power\HiberbootEnabled", 0, "REG_DWORD", "Hiberboot - dual boot fix"),
-            new RegSet(@"\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\AUOptions", 2, "REG_DWORD", "AUOptions - ask for update"),
-            new RegSet(@"\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching\SearchOrderConfig", 0, "REG_DWORD", "DriverSearching - disable driver search"),
-            new RegSet(@"\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\ExcludeWUDriversInQualityUpdate", 1, "REG_DWORD", "WUDrivers - disable driver updates in wu"),
-            new RegSet(@"\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\DisableOSUpgrade", 1, "REG_DWORD", "DisableOSUpgrade - disable updates entirely"),
-            new RegSet(@"\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate", 1, "REG_DWORD", "NoAutoUpdate - disables auto updating"),
-            new RegSet(@"\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoRebootWithLoggedOnUsers", 1, "REG_DWORD", "NoAutoRebootWithLoggedOnUsers"),
-            new RegSet(@"\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\AlwaysAutoRebootAtScheduledTime", 0, "REG_DWORD", "AlwaysAutoRebootAtScheduledTime - disable auto reboot")
-        };
